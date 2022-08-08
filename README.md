@@ -1,5 +1,5 @@
 <p align="center">
-  [![Tooltips Reactjs](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif)](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view?usp=sharing)
+![Demo](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif)
 </p>
 
 
