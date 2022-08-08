@@ -1,6 +1,6 @@
-<p align="center">
+
 ![Demo](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif)
-</p>
+![](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif)
 
 
 # avatar-reactjs 🚀
