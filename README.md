@@ -1,6 +1,6 @@
 [![Video text](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view?usp=sharing)
 
-[<video width="320" height="240" controls><source src="https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view" type="video/mp4"></video>](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view "Video text")
+[<video src="https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif" width="100%">](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view?usp=sharing "Tooltips Reactjs")
 
 
 # avatar-reactjs 🚀
