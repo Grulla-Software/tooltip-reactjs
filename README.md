@@ -1,5 +1,8 @@
 [![Video text](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view?usp=sharing)
-                                        ![](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif)
+
+<p align="center">
+  <img src="https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif">
+</p>
 
 
 # avatar-reactjs 🚀
