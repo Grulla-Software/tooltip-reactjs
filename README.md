@@ -1,19 +1,16 @@
 [![Video text](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/imgHeading.png)](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view?usp=sharing)
 
-<p align="center">
-  <img src="https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif" width ='100%'>
-</p>
-
-
-# avatar-reactjs 🚀
-Avatar-reactjs is an ideal component to display the user's profile image, it's light, elegant and very easy. This component speeds up software development by creating the user profile, as it can be reused over and over again. It is fully customizable so it allows you to meet any requirement.
-> This displays the user's profile picture or first and last name initials.
+# tooltips-reactjs 🚀
+Tooltips-reactjs is an ideal component to display additional information when the user hovers over another element or component.
+This component has been developed so that it is totally modifiable and can be adapted to the needs of the developer, allowing it to meet the requested requirements.
+It is a lightweight component and very easy to use.
+> This displays additional information to users.
 
 ## Installing 🔧
 To install the component use the Node Package Manager (npm).
 You must open the command console at the root of your project and execute the command:
 ```
- npm install avatar-reactjs --save 
+ npm install tooltips-reactjs --save 
 ```
 
 ## Usage 🛠️
@@ -23,355 +20,61 @@ Here is an example of how to implement the component:
 ```jsx
 import logo from './logo.svg';
 import './App.css';
-import AvatarReactjs from 'avatar-reactjs';
+import TooltipsReactjs  from 'tooltips-reactjs';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Avatar Component</h1>
+        <h1>Tooltips Component</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>avatar-reactjs</h2>
-        <div className="container-avatarReactjs">
-          <div className="example-avatarReactjs">
-            <AvatarReactjs
-              name={'Marvin Calvo'}
-              fontSize={'medium'}
-              backgroundColor={'blue'}
-              fontColor={'azure'}
-              width={'50px'}
-              height={'50px'}
-              borderRadius={'5%'}
-            />
-            <AvatarReactjs
-              name={'Antonio Luna'}
-              fontSize={'x-large'}
-              backgroundColor={'blue'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'5%'}
-            />
-            <AvatarReactjs
-              name={'Fabiola Gonzalez'}
-              fontSize={'x-large'}
-              backgroundColor={'blue'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'5%'}
-            />
-            <AvatarReactjs
-              name={'Bill Gates'}
-              fontSize={'x-large'}
-              backgroundColor={'blue'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'5%'}
-            />
-            <AvatarReactjs
-              name={'Albert Einstein'}
-              fontSize={'x-large'}
-              backgroundColor={'blue'}
-              fontColor={'azure'}
-              width={'100px'}
-              height={'100px'}
-              borderRadius={'5%'}
-            />
-            <AvatarReactjs
-              name={'Isaac Newton'}
-              fontSize={'xx-large'}
-              backgroundColor={'blue'}
-              fontColor={'azure'}
-              width={'120px'}
-              height={'120px'}
-              borderRadius={'5%'}
-            />
-          </div>
-          <div className="example-avatarReactjs">
-            <AvatarReactjs
-              name={'Marvin Calvo'}
-              fontSize={'medium'}
-              backgroundColor={'white'}
-              fontColor={'blue'}
-              width={'50px'}
-              height={'50px'}
-              borderRadius={'10%'}
-            />
-            <AvatarReactjs
-              name={'Antonio Luna'}
-              fontSize={'x-large'}
-              backgroundColor={'white'}
-              fontColor={'blue'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'10%'}
-            />
-            <AvatarReactjs
-              name={'Fabiola Gonzalez'}
-              fontSize={'x-large'}
-              backgroundColor={'white'}
-              fontColor={'blue'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'10%'}
-            />
-            <AvatarReactjs
-              name={'Bill Gates'}
-              fontSize={'x-large'}
-              backgroundColor={'white'}
-              fontColor={'blue'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'10%'}
-            />
-            <AvatarReactjs
-              name={'Albert Einstein'}
-              fontSize={'x-large'}
-              backgroundColor={'white'}
-              fontColor={'blue'}
-              width={'100px'}
-              height={'100px'}
-              borderRadius={'10%'}
-            />
-            <AvatarReactjs
-              name={'Isaac Newton'}
-              fontSize={'xx-large'}
-              backgroundColor={'white'}
-              fontColor={'blue'}
-              width={'120px'}
-              height={'120px'}
-              borderRadius={'10%'}
-            />
-          </div>
-          <div className="example-avatarReactjs">
-            <AvatarReactjs
-              name={'Marvin Calvo'}
-              fontSize={'medium'}
-              backgroundColor={'black'}
-              fontColor={'azure'}
-              width={'50px'}
-              height={'50px'}
-              borderRadius={'20%'}
-            />
-            <AvatarReactjs
-              name={'Antonio Luna'}
-              fontSize={'x-large'}
-              backgroundColor={'black'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'20%'}
-            />
-            <AvatarReactjs
-              name={'Fabiola Gonzalez'}
-              fontSize={'x-large'}
-              backgroundColor={'black'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'20%'}
-            />
-            <AvatarReactjs
-              name={'Bill Gates'}
-              fontSize={'x-large'}
-              backgroundColor={'black'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'20%'}
-            />
-            <AvatarReactjs
-              name={'Albert Einstein'}
-              fontSize={'x-large'}
-              backgroundColor={'black'}
-              fontColor={'azure'}
-              width={'100px'}
-              height={'100px'}
-              borderRadius={'20%'}
-            />
-            <AvatarReactjs
-              name={'Isaac Newton'}
-              fontSize={'xx-large'}
-              backgroundColor={'black'}
-              fontColor={'azure'}
-              width={'120px'}
-              height={'120px'}
-              borderRadius={'20%'}
-            />
-          </div>
-          <div className="example-avatarReactjs">
-            <AvatarReactjs
-              name={'Marvin Calvo'}
-              fontSize={'medium'}
-              backgroundColor={'red'}
-              fontColor={'black'}
-              width={'50px'}
-              height={'50px'}
-              borderRadius={'30%'}
-            />
-            <AvatarReactjs
-              name={'Antonio Luna'}
-              fontSize={'x-large'}
-              backgroundColor={'red'}
-              fontColor={'black'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'30%'}
-            />
-            <AvatarReactjs
-              name={'Fabiola Gonzalez'}
-              fontSize={'x-large'}
-              backgroundColor={'red'}
-              fontColor={'black'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'30%'}
-            />
-            <AvatarReactjs
-              name={'Bill Gates'}
-              fontSize={'x-large'}
-              backgroundColor={'red'}
-              fontColor={'black'}
-              width={'70px'}
-              height={'70px'}
-              borderRadius={'30%'}
-            />
-            <AvatarReactjs
-              name={'Albert Einstein'}
-              fontSize={'x-large'}
-              backgroundColor={'red'}
-              fontColor={'black'}
-              width={'100px'}
-              height={'100px'}
-              borderRadius={'30%'}
-            />
-            <AvatarReactjs
-              name={'Isaac Newton'}
-              fontSize={'xx-large'}
-              backgroundColor={'red'}
-              fontColor={'black'}
-              width={'120px'}
-              height={'120px'}
-              borderRadius={'30%'}
-            />
-          </div>
-          <div className="example-avatarReactjs">
-            <AvatarReactjs
-              name={'Marvin Calvo'}
-              fontSize={'medium'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'50px'}
-              height={'50px'}
-            />
-            <AvatarReactjs
-              name={'Antonio Luna'}
-              fontSize={'x-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-            />
-            <AvatarReactjs
-              name={'Fabiola Gonzalez'}
-              fontSize={'x-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-            />
-            <AvatarReactjs
-              name={'Bill Gates'}
-              fontSize={'x-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-            />
-            <AvatarReactjs
-              name={'Albert Einstein'}
-              fontSize={'x-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'100px'}
-              height={'100px'}
-            />
-            <AvatarReactjs
-              name={'Isaac Newton'}
-              fontSize={'xx-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'120px'}
-              height={'120px'}
-            />
-          </div>
-          <div className="example-avatarReactjs">
-            <AvatarReactjs
-              src={'img/avatar7.jpg'}
-              name={'Marvin Calvo'}
-              fontSize={'medium'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'50px'}
-              height={'50px'}
-            />
-            <AvatarReactjs
-              src={'img/avatar3.jpg'}
-              name={'Antonio Luna'}
-              fontSize={'x-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-            />
-            <AvatarReactjs
-              src={'img/avatar2.jpg'}
-              name={'Fabiola Gonzalez'}
-              fontSize={'x-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-            />
-            <AvatarReactjs
-              src={'img/avatar4.jpg'}
-              name={'Bill Gates'}
-              fontSize={'x-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'70px'}
-              height={'70px'}
-            />
-            <AvatarReactjs
-              src={'img/avatar5.jpg'}
-              name={'Albert Einstein'}
-              fontSize={'x-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'100px'}
-              height={'100px'}
-            />
-            <AvatarReactjs
-              src={'img/avatar6.jpg'}
-              name={'Isaac Newton'}
-              fontSize={'xx-large'}
-              backgroundColor={'green'}
-              fontColor={'azure'}
-              width={'120px'}
-              height={'120px'}
-            />
-          </div>
+        <h2>tooltips-reactjs</h2>
+        <div className='container'>
+          <TooltipsReactjs 
+            text={'Tooltip Top'}
+            type={'top'}
+            background={'#61DAFB'}
+            borderRadius={'2%'}
+            color={'#000000'}
+          >
+            <p>Tooltip Top</p>
+          </TooltipsReactjs>
+
+          <TooltipsReactjs 
+            text={'Tooltip Bottom'}
+            type={'bottom'}
+            background={'blue'}
+          >
+            <p>Tooltip Bottom</p>
+          </TooltipsReactjs>
         </div>
-      
-        <br/>
+        <div className='container'>
+          <TooltipsReactjs 
+            text={'Tooltip Left'}
+            type={'left'}
+            background={'red'}
+          >
+            <p>Tooltip Left</p>
+          </TooltipsReactjs>
+
+          <TooltipsReactjs 
+            text={'Tooltip Right'}
+            type={'right'}
+            background={'green'}
+          >
+            <p>Tooltip Right</p>
+          </TooltipsReactjs>
+        </div>
       </header>
     </div>
   );
 }
+
 export default App;
 
 ```
+<p align="center">
+  <img src="https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif" width ='100%'>
+</p>
 
 ### Props of styles 📦
 
