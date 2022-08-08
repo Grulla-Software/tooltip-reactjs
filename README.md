@@ -1,5 +1,5 @@
 ![Image text](https://github.com/Grulla-Software/avatar-reactjs/blob/main/img/imgHeading.png)
-
+[![asciicast](https://github.com/Grulla-Software/avatar-reactjs/blob/main/img/imgHeading.png)](https://asciinema.org/a/113463)
 # avatar-reactjs 🚀
 
 Avatar-reactjs is an ideal component to display the user's profile image, it's light, elegant and very easy. This component speeds up software development by creating the user profile, as it can be reused over and over again. It is fully customizable so it allows you to meet any requirement.
