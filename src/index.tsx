@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './index.css';
 interface Props {
-  text?: string,
+  text?:  JSX.Element,
   type?: string,
   offsetX?: string,
   offsetY?: string,

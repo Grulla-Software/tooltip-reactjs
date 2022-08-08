@@ -82,25 +82,25 @@ Props for component styles are displayed as a table with Name, Type, Default, an
 
 **Required props are marked with `*`.**
 
-| Name             | Type   | Default   | Description                                            |
-| ---------------- | ------ | --------- | ------------------------------------------------------ |
-| `borderRadius`   |`string`| `50%`     | Indicates the border radius of the avatar component.   |
-| `backgroundColor`|`string`| `red`     | Indicates the background color of the avatar component.|
-| `fontColor`      |`string`| `white`   | Indicates the text color of the avatar component.      |
-| `height`         |`string`| `100px`   | Indicates the height of the avatar component.          |
-| `width`          |`string`| `100px`   | Indicates the width of the avatar component.           |
-| `fontSize`       |`string`| `xx-large`| Indicates the text size of the avatar component.       |
+| Name          | Type   | Default    | Description                                        |
+| ------------- | ------ | ---------- | -------------------------------------------------- |
+| `width`       |`string`| `150px`    | Indicates the width of tooltip component.          |
+| `height`      |`string`| `30px`     | Indicates the height of tooltip component.         |
+| `background`  |`string`| `#0000005b`| Indicates the background of tooltip component.     |
+| `fontSize`    |`string`| `1rem`     | Indicates the text size of tooltip component.      |
+| `color`       |`string`| `#fff`     | Indicates the text color of tooltip component.     |
+| `borderRadius`|`string`| `3px`      | Indicates the border radius of tooltip component.   |
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **borderRadius**: Use this prop for indicate the border radius of the avatar component. This value is indicated as a string and percentage format for example: "10%" or "50%".
-- **backgroundColor**: Use this prop for indicate the background color of the avatar component. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
-- **fontColor**: Use this prop for indicate the text color of the avatar component. You can specify this value as a string, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
-- **height**: Use this prop for indicate the height of the avatar component. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
-- **width**: Use this prop for indicate the width of the avatar component. Specify this as a string and in pixel format ("30px") or percentage format ("10%").
-- **fontSize**: Use this prop to indicate the size of the text for the avatar component. Specify this as a string and in pixel format ("20px") or REM format ("1rem") or EM format ("1em") or the name of size("smaller", "medium", "large", " larger", "x-large", "xx-large").
+- **width**: Use this prop to indicate the width of tooltip component. Specify this as a `string` and in pixel format ("30px") or percentage format ("10%").
+- **height**: Use this prop to indicate the heightof tooltip component. Specify this as a `string` and in pixel format ("30px") or percentage format ("10%").
+- **background**: Use this prop for indicate the background color of tooltip component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of color ("red").
+- **fontSize**: Use this prop to indicate the size of text for tooltip component. Specify this as a `string` and in pixel format ("20px") or REM format ("1rem") or EM format ("1em") or the name of size("smaller", "medium", "large", " larger", "x-large", "xx-large").
+- **color**: Use this prop for indicate the text color of tooltip component. Specify this value as a `string`, in the format RGB hex ("#AA00FF") or RGB decimal ("rgb (71, 98, 176)") or RGB percentage ("rgb (27%, 38%, 69% ) ") or the name of the color ("white").
+- **borderRadius**: Use this prop for indicate the border radius of tooltip component. This value is indicated as a `string` and percentage format for example: "10%" or "50%".
 
 ### Props for functionality 📦
 
@@ -108,18 +108,22 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 
 **Required props are marked with `*`.**
 
-| Name     | Type    | Default | Description                                                       |
-| -------- | ------- | ------- | ----------------------------------------------------------------- |
-| `src`    | `string`| ` `     | Indicates the URL of image that will display the avatar component.|
-| `name`\* | `string`| `😀`   | Indicates the name that the avatar component will display.        |
+| Name      | Type         | Default | Description                                                   |
+| --------- | -------      | ------- | ------------------------------------------------------------- |
+| `text`\*  | `JSX.Element`| ` `     | Indicates the content that the tooltip component will display.|
+| `type`\*  | `string`     | `top`   | Indicates the type of tooltip component.                      |
+| `offsetY` | `number`     | `80`    | Indicates the Y-axis offset for the tooltip component.        |
+| `offsetX` | `number`     | `110`   | Indicates the X-axis offset for the tooltip component.        |
 
 
 ### Additional usage information 📋
 
 Additional information about using the component pros.
 
-- **src**: Use this prop to indicate the URL of the image that the avatar component will display. This must be indicated as a string.
-- **name**: Use this property to indicate the name that the avatar component will display. This must be indicated as a string.
+- **text**: Use this prop to indicate the content that the tooltip component will display. This must be indicated as a `string` or as an `html element`.
+- **type**: Use this prop to indicate the type of the tooltip component. This must be given as a `string` and the supported values are `top` or `bottom` or `left` or `right`.
+- **offsetY**: Use this prop to indicate the URL of the image that the avatar component will display. This must be indicated as a `string`.
+- **offsetX**: Use this property to indicate the name that the avatar component will display. This must be indicated as a string.
 
 ## Authors ✒️
 
