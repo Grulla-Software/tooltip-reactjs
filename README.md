@@ -3,7 +3,6 @@
 
 <iframe src="https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/preview" width="640" height="480" allow="autoplay"></iframe>
 
-
 # avatar-reactjs 🚀
 Avatar-reactjs is an ideal component to display the user's profile image, it's light, elegant and very easy. This component speeds up software development by creating the user profile, as it can be reused over and over again. It is fully customizable so it allows you to meet any requirement.
 > This displays the user's profile picture or first and last name initials.
