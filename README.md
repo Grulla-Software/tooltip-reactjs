@@ -1,4 +1,7 @@
-[![Tooltips Reactjs](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif)](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view?usp=sharing)
+<p align="center">
+  [![Tooltips Reactjs](https://github.com/Grulla-Software/tooltips-reactjs/blob/main/img/Video.gif)](https://drive.google.com/file/d/1lSZfiQhW48dqmJvLJN4C_NilhqvrYMOK/view?usp=sharing)
+</p>
+
 
 # avatar-reactjs 🚀
 Avatar-reactjs is an ideal component to display the user's profile image, it's light, elegant and very easy. This component speeds up software development by creating the user profile, as it can be reused over and over again. It is fully customizable so it allows you to meet any requirement.
