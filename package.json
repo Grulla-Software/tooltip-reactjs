@@ -1,7 +1,7 @@
 {
   "name": "tooltips-reactjs",
-  "version": "1.0.3",
-  "description": "plantilla",
+  "version": "1.0.1",
+  "description": "Tooltips Component",
   "main": "build/index.js",
   "scripts": {
     "clean": "rm build/index.js",
@@ -58,13 +58,19 @@
     "reactjs",
     "react-component",
     "component",
-    "avatar",
-    "react-avatar",
-    "react avatar",
-    "react-avatarjs",
-    "avatar-react",
-    "avatar react",
-    "avatar-reactjs",
-    "avatar reactjs"
+    "tooltips",
+    "tooltip",
+    "react-tooltips",
+    "react-tooltip",
+    "react tooltips",
+    "react tooltip",
+    "react-tooltipsjs",
+    "react-tooltipjs",
+    "tooltips-react",
+    "tooltip-react",
+    "tooltip react",
+    "tooltip reactjs",
+    "tooltips-reactjs",
+    "tooltips reactjs"
   ]
 }
