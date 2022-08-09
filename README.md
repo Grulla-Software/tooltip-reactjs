@@ -28,17 +28,18 @@ function App() {
         <h1>Tooltips Component</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <h2>tooltips-reactjs</h2>
-        <div className='container'>
+         <div className='container'>
+           {/* Tooltip Top */}
           <TooltipsReactjs 
-            text={'Tooltip Top'}
+            text={<div>Tooltip Top</div>}
             type={'top'}
             background={'#61DAFB'}
             borderRadius={'2%'}
             color={'#000000'}
           >
-            <p>Tooltip Top</p>
+            <p>Tooltip Top </p>
           </TooltipsReactjs>
-
+          {/* Tooltip Bottom */}
           <TooltipsReactjs 
             text={'Tooltip Bottom'}
             type={'bottom'}
@@ -48,6 +49,7 @@ function App() {
           </TooltipsReactjs>
         </div>
         <div className='container'>
+          {/* Tooltip Left */}
           <TooltipsReactjs 
             text={'Tooltip Left'}
             type={'left'}
@@ -55,9 +57,9 @@ function App() {
           >
             <p>Tooltip Left</p>
           </TooltipsReactjs>
-
+          {/* Tooltip Right */}
           <TooltipsReactjs 
-            text={'Tooltip Right'}
+            text={<p>Tooltip Right</p>}
             type={'right'}
             background={'green'}
           >
@@ -111,7 +113,7 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 | Name      | Type         | Default | Description                                                   |
 | --------- | -------      | ------- | ------------------------------------------------------------- |
 | `text`\*  | `JSX.Element`| ` `     | Indicates the content that the tooltip component will display.|
-| `type`\*  | `string`     | `top`   | Indicates the type of tooltip component.                      |
+| `type`    | `string`     | `top`   | Indicates the type of tooltip component.                      |
 | `offsetY` | `number`     | `80`    | Indicates the Y-axis offset for the tooltip component.        |
 | `offsetX` | `number`     | `110`   | Indicates the X-axis offset for the tooltip component.        |
 
