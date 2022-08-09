@@ -29,6 +29,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>tooltips-reactjs</h2>
          <div className='container'>
+         
            {/* Tooltip Top */}
           <TooltipsReactjs 
             text={<div>Tooltip Top</div>}
@@ -39,6 +40,7 @@ function App() {
           >
             <p>Tooltip Top </p>
           </TooltipsReactjs>
+
           {/* Tooltip Bottom */}
           <TooltipsReactjs 
             text={'Tooltip Bottom'}
@@ -47,8 +49,10 @@ function App() {
           >
             <p>Tooltip Bottom</p>
           </TooltipsReactjs>
+
         </div>
         <div className='container'>
+
           {/* Tooltip Left */}
           <TooltipsReactjs 
             text={'Tooltip Left'}
@@ -57,6 +61,7 @@ function App() {
           >
             <p>Tooltip Left</p>
           </TooltipsReactjs>
+
           {/* Tooltip Right */}
           <TooltipsReactjs 
             text={<p>Tooltip Right</p>}
@@ -65,6 +70,7 @@ function App() {
           >
             <p>Tooltip Right</p>
           </TooltipsReactjs>
+
         </div>
       </header>
     </div>
