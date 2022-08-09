@@ -29,8 +29,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>tooltips-reactjs</h2>
          <div className='container'>
-         
-           {/* Tooltip Top */}
+
+          {/* Tooltip Top */}
           <TooltipsReactjs 
             text={<div>Tooltip Top</div>}
             type={'top'}
@@ -120,8 +120,8 @@ Props for component functionality are displayed as a table with Name, Type, Defa
 | --------- | -------      | ------- | ------------------------------------------------------------- |
 | `text`\*  | `JSX.Element`| ` `     | Indicates the content that the tooltip component will display.|
 | `type`    | `string`     | `top`   | Indicates the type of tooltip component.                      |
-| `offsetY` | `number`     | `80`    | Indicates the Y-axis offset for the tooltip component.        |
-| `offsetX` | `number`     | `110`   | Indicates the X-axis offset for the tooltip component.        |
+| `offsetY` | `number`     | `80`    | Indicates the Y-axis offset for tooltip component.        |
+| `offsetX` | `number`     | `110`   | Indicates the X-axis offset for tooltip component.        |
 
 
 ### Additional usage information 📋
@@ -130,8 +130,8 @@ Additional information about using the component pros.
 
 - **text**: Use this prop to indicate the content that the tooltip component will display. This must be indicated as a `string` or as an `html element`.
 - **type**: Use this prop to indicate the type of the tooltip component. This must be given as a `string` and the supported values are `top` or `bottom` or `left` or `right`.
-- **offsetY**: Use this prop to indicate the URL of the image that the avatar component will display. This must be indicated as a `string`.
-- **offsetX**: Use this property to indicate the name that the avatar component will display. This must be indicated as a string.
+- **offsetY**: Use this prop indicates the Y-axis offset for tooltip component. This must be indicated as a `number` for example: 10 or 20 or 30.
+- **offsetX**: Use this prop indicates the X-axis offset for tooltip component. This must be indicated as a `number` for example: 10 or 20 or 30.
 
 ## Authors ✒️
 
