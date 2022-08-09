@@ -1,6 +1,6 @@
 {
   "name": "tooltips-reactjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tooltips Component",
   "main": "build/index.js",
   "scripts": {
